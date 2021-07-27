@@ -4,12 +4,14 @@ body{
 h1{
     color:black;
     font-size: 30px;
+    
 }
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
@@ -27,4 +29,26 @@ section{
     font-weight: 700px;
     padding: 10px 40px;
     border-radius: 50px;
+}
+.about-me{
+    background-image:url(images/shapes/7.png) ;
+    background-repeat: no-repeat;
+    background-position: middle;
+}
+.about{
+    text-align: center;
+}
+.center{
+    text-align: center;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+.three-part{
+    width:30%;
+}
+.three-part img{
+    display: flex;
+    width:80%;
+    padding-left: 40%;
+    padding-right: 30%;
 }
