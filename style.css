@@ -12,14 +12,15 @@ h1{
 .flexible-container{
     display: flex;
     margin-bottom: 80px;
+    margin-left: 0;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
-    padding-right: 5%;
 }
 .half-width img{
     width: 60%;
+    
 }
 .link-button{
     text-decoration: none;
@@ -43,12 +44,42 @@ h1{
     padding-right: 25%;
     padding-left: 25%;
 }
-.three-part{
+.three-part {
     width:30%;
+    
+
 }
 .three-part img{
     display: flex;
     width:80%;
-    padding-left: 40%;
-    padding-right: 30%;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 5%;
 }
+.three-part h1{
+    padding-left: 10%;   
+}
+.small{
+    padding-left: 10%;
+}
+.three-part{
+    box-shadow: 10px 10px 40px gray;
+    margin-left:5%;
+    border-radius: 20px;
+}
+.follow{
+    width: 25%;
+    padding-left: 10%;
+   
+}
+.follower{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    
+}
+
+
+    
+    
